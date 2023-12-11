@@ -14,8 +14,10 @@ var contextpath="${path}";
 </script>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/ajaxTest.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/ajaxshort.js"></script>
 </head>
 <body>
 <input type="button" id="ajaxbutton" value=Click />
+<input type="text" id="name" value="test" />
 </body>
 </html>
